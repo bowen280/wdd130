@@ -55,7 +55,7 @@ body{
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
-    
+    justify-content: space-evenly;
     
     
   
@@ -70,8 +70,12 @@ body{
 
 }
 
+.cdj-card{
+   float: left;
+}
+
  .dj-card{
-    margin-left: 300px;
+    float: right;
  }   
 
 

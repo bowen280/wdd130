@@ -130,7 +130,7 @@ footer p{
 
 .book-page{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 20px;
 
    
@@ -158,11 +158,11 @@ footer p{
 }
 
 .playlistintro{
-    grid-column: 3/5;
+    grid-column: 1/4;
     font-family: 'IM Fell English SC';
-    color: #9a4c95;
-    position: relative;
-    top:-150px;
+    color: #9a4c95;   
+    justify-content: center;
+    justify-self: center;
    
     
 }
@@ -170,25 +170,25 @@ footer p{
 
 
 .house{
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 .dubstep{
-    grid-column: 2/3;
-    justify-content: center;
+    grid-column: 1/2;
+    
 }
 
 
-.bigroom{
-    justify-content: center;
-    margin: auto;
-}
+
 
 .house, .ambient, .trance, .dubstep, .bigroom, .trap {
     display: grid;
     align-items: center;
     justify-items: center;
-    float: left;
+    box-shadow: #9a4c95;
+    wrap
+    
+    
     
 }
 
@@ -198,10 +198,5 @@ footer p{
    font-family: 'Trade Winds';
 }
 
-.danceimg{
-    grid-column: 1/4;
-  
-    
-}
 
 

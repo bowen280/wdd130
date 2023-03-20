@@ -186,14 +186,10 @@ footer p{
     align-items: center;
     justify-items: center;
     box-shadow: #9a4c95;
-    wrap
-    
-    
-    
 }
 
 .house h5, .ambient h5, .trance h5, .dubstep h5, .bigroom h5, .trap h5{
-   color: purple; 
+   color: purple;
    font-size: large;
    font-family: 'Trade Winds';
 }

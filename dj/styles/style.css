@@ -195,4 +195,27 @@ footer p{
 }
 
 
+.icon-bar{
+    width: 100%;
+    background-color: #9a4c95;
+    overflow: auto;
+}
+
+.icon-bar a{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 16px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 38px;
+}
+
+.icon-bar a:hover{
+    background-color: violet;
+}
+
+.active{
+    background-color: violet;
+}
 

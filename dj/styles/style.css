@@ -12,9 +12,9 @@
     align-self: center;
 }
 .logo{
-    width: 50px;
-    height: 50px;
-    padding: 5px;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
 
 }
 
@@ -29,6 +29,7 @@ header{
 nav a:hover{
     background-color: black;
     color: white;
+    font-size: large;
 }
 
 nav{
@@ -38,6 +39,8 @@ nav{
     padding: 35px;
     display: flex;
     justify-content: space-around;
+    font-size: large;
+    font-family: 'IM Fell English SC', Trade Winds, cursive, 'Times New Roman', Times, serif
 }
 
 #banner_msg h1, h2{
@@ -61,24 +64,6 @@ body{
   
 }
 
-.cdj-card .dj-card{
-
-    width: 50%;
-    margin: 25%;
-    
-
-
-}
-
-.cdj-card{
-   float: left;
-}
-
- .dj-card{
-    float: right;
- }   
-
-
 .home-msg{
     line-height: 1.5em;
     background-color: #9a4c95;
@@ -95,17 +80,128 @@ body{
     font-size: .8em;
     padding-bottom: 15px;
     margin: auto;
-    font-family: 'IM Fell', 'Trade Winds', 'Times New Roman', Times, serif
+    font-family: 'IM Fell English SC', 'Trade Winds', 'Times New Roman', Times, serif
 
 }
 footer{
-    background-color:#1d1a31;
-    color:#9a4c95;
+    background-color:#9691b3;
+    color:white;
     padding: 25px 50px;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
+
+footer p{
+    color: white;
+}
+
+
+
+
+.book-info{
+    border-style: double;
+    grid-column: 1/2;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
+    font-size: 2em;
+    font-family: 'Trade Winds';
+    background-color: #9a4c95;
+    color: white;
     
+    
+    
+ 
+  }
+
+  .book-link{
+    border-style: double;
+    grid-column: 1/5;
+    margin:auto;
+    font-size: 1.5em;
+    background-color: #9a4c95;
+    color: white;
+    font-family: 'Trade Winds';
+    
+  }
+
+.book-page{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+
+   
+    
+    
+}
+
+.booknow-img{
+     padding: 5px;
+     grid-column: 2/3;
+     display: grid;
+     justify-items: center;
+     justify-self: center;
+     grid-row: auto;
+    
+}
+
+.wave-img{
+    grid-column: 3/5;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    
+}
+
+.playlistintro{
+    grid-column: 3/5;
+    font-family: 'IM Fell English SC';
+    color: #9a4c95;
+    position: relative;
+    top:-150px;
+   
+    
+}
+
+
+
+.house{
+    grid-column: 2/3;
+}
+
+.dubstep{
+    grid-column: 2/3;
+    justify-content: center;
+}
+
+
+.bigroom{
+    justify-content: center;
+    margin: auto;
+}
+
+.house, .ambient, .trance, .dubstep, .bigroom, .trap {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    float: left;
+    
+}
+
+.house h5, .ambient h5, .trance h5, .dubstep h5, .bigroom h5, .trap h5{
+   color: purple; 
+   font-size: large;
+   font-family: 'Trade Winds';
+}
+
+.danceimg{
+    grid-column: 1/4;
+  
+    
+}
+
+

@@ -199,6 +199,7 @@ footer p{
     width: 100%;
     background-color: #9a4c95;
     overflow: auto;
+    margin-bottom: 5%;
 }
 
 .icon-bar a{
